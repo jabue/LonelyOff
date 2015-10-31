@@ -6,6 +6,7 @@
 //  Copyright © 2015 Jabue. All rights reserved.
 //
 
+import Parse
 import UIKit
 
 @UIApplicationMain
