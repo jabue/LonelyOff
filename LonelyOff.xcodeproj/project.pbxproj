@@ -16,6 +16,7 @@
 		2F0FA7F21BE3DC1C00AA202F /* LonelyOffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FA7F11BE3DC1C00AA202F /* LonelyOffUITests.swift */; };
 		2F0FA8021BE3EBBB00AA202F /* welcome.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2F0FA8011BE3EBBB00AA202F /* welcome.jpeg */; };
 		2F0FA8051BE3F60F00AA202F /* welcome1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F0FA8041BE3F60F00AA202F /* welcome1.jpg */; };
+		2F0FA8091BE418D600AA202F /* JBMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FA8081BE418D600AA202F /* JBMainView.swift */; };
 		47B011615E055365B3DAB90E /* Pods_LonelyOff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE36341EC66655C7ED194191 /* Pods_LonelyOff.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		2F0FA7F31BE3DC1C00AA202F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F0FA8011BE3EBBB00AA202F /* welcome.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = welcome.jpeg; path = Images/welcome.jpeg; sourceTree = "<group>"; };
 		2F0FA8041BE3F60F00AA202F /* welcome1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = welcome1.jpg; path = Images/welcome1.jpg; sourceTree = "<group>"; };
+		2F0FA8071BE4164800AA202F /* LonelyOff-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LonelyOff-Bridging-Header.h"; sourceTree = "<group>"; };
+		2F0FA8081BE418D600AA202F /* JBMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBMainView.swift; sourceTree = "<group>"; };
 		997511EC87B6D625ED7CE8B7 /* Pods-LonelyOff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LonelyOff.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LonelyOff/Pods-LonelyOff.debug.xcconfig"; sourceTree = "<group>"; };
 		AE36341EC66655C7ED194191 /* Pods_LonelyOff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LonelyOff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB31FC9BBA949BB862CB8DE6 /* Pods-LonelyOff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LonelyOff.release.xcconfig"; path = "Pods/Target Support Files/Pods-LonelyOff/Pods-LonelyOff.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				2F0FA7D81BE3DC1C00AA202F /* Assets.xcassets */,
 				2F0FA7DA1BE3DC1C00AA202F /* LaunchScreen.storyboard */,
 				2F0FA7DD1BE3DC1C00AA202F /* Info.plist */,
+				2F0FA8071BE4164800AA202F /* LonelyOff-Bridging-Header.h */,
+				2F0FA8081BE418D600AA202F /* JBMainView.swift */,
 			);
 			path = LonelyOff;
 			sourceTree = "<group>";
@@ -349,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0FA8091BE418D600AA202F /* JBMainView.swift in Sources */,
 				2F0FA7D41BE3DC1C00AA202F /* ViewController.swift in Sources */,
 				2F0FA7D21BE3DC1C00AA202F /* AppDelegate.swift in Sources */,
 			);
@@ -498,6 +504,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jabue.LonelyOff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/LonelyOff/LonelyOff-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -511,6 +518,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jabue.LonelyOff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/LonelyOff/LonelyOff-Bridging-Header.h";
 			};
 			name = Release;
 		};
