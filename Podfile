@@ -6,6 +6,7 @@ use_frameworks!
 target 'LonelyOff' do
 pod 'JSQMessagesViewController'
 pod 'Parse'
+pod 'LTMorphingLabel'
 end
 
 target 'LonelyOffTests' do

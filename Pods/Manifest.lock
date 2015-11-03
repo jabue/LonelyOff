@@ -3,17 +3,20 @@ PODS:
   - JSQMessagesViewController (7.2.0):
     - JSQSystemSoundPlayer (~> 2.0.1)
   - JSQSystemSoundPlayer (2.0.1)
+  - LTMorphingLabel (0.0.8)
   - Parse (1.9.1):
     - Bolts/Tasks (>= 1.4.0)
 
 DEPENDENCIES:
   - JSQMessagesViewController
+  - LTMorphingLabel
   - Parse
 
 SPEC CHECKSUMS:
   Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
   JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  LTMorphingLabel: 0d2c981d47bb3b57dd03b37c5c13d8d71fc1e97e
   Parse: 54a965c8c19a6dde90284ab654dbcc77ef8c001b
 
 COCOAPODS: 0.38.2

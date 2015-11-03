@@ -10,3 +10,5 @@
 
 #import <JSQMessagesViewController/JSQMessages.h>
 
+#import <LTMorphingLabel/LTMorphingLabel.h>
+
