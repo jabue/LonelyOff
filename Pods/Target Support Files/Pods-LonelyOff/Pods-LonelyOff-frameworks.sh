@@ -55,11 +55,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-LonelyOff/Bolts.framework'
   install_framework 'Pods-LonelyOff/JSQMessagesViewController.framework'
   install_framework 'Pods-LonelyOff/JSQSystemSoundPlayer.framework'
+  install_framework 'Pods-LonelyOff/LTMorphingLabel.framework'
   install_framework 'Pods-LonelyOff/Parse.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-LonelyOff/Bolts.framework'
   install_framework 'Pods-LonelyOff/JSQMessagesViewController.framework'
   install_framework 'Pods-LonelyOff/JSQSystemSoundPlayer.framework'
+  install_framework 'Pods-LonelyOff/LTMorphingLabel.framework'
   install_framework 'Pods-LonelyOff/Parse.framework'
 fi

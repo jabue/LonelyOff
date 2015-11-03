@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9E0DC51674613FF31ED2A28E"
-               BuildableName = "JSQMessagesViewController.framework"
-               BlueprintName = "JSQMessagesViewController"
+               BlueprintIdentifier = "255AAEE8C0D8A0D459778B3A"
+               BuildableName = "LTMorphingLabel.framework"
+               BlueprintName = "LTMorphingLabel"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
